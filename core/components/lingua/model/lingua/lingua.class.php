@@ -386,6 +386,7 @@ class Lingua {
         if (!$this->modx->parser) {
             $this->modx->getParser();
         }
+        if($this->modx->parser->pdoTools)$this->modx->parser->pdoTools->config['useFenom'] = false;
         $this->modx->parser->processElementTags('', $content, true, false, '[[', ']]', array(), $maxIterations);
         $this->modx->parser->processElementTags('', $content, true, true, '[[', ']]', array(), $maxIterations);
         return $content;

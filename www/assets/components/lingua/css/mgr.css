@@ -6,3 +6,7 @@
 .icon-lingua-insert-flag {
     margin-left: 5px;
 }
+
+.tv-first label.x-form-item-label .modx-tv-reset {
+ 	padding: 2px 8px 0 0;
+}

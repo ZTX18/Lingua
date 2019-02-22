@@ -9,7 +9,7 @@
                 [[+tv.caption:default=`[[+tv.name]]`]]
             </span>
         </div>
-        <a class="modx-tv-reset" id="modx-tv-reset-[[+tv.id]]" title="[[%set_to_default]]" style="float: left;"></a>
+        <a class="modx-tv-reset" id="modx-tv-reset-[[+tv.id]]" title="[[%set_to_default]]"></a>
         [[+tv.description:isnotempty=`<span class="modx-tv-label-description">[[+tv.description]]</span>`]]
     </label>
     [[+tv.inherited:is=`1`:then=`<span class="modx-tv-inherited">[[%tv_value_inherited]]</span>`]]
